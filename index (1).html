@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Review Học Sinh 12F1</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container">
+      <h1 class="logo">Review Học Sinh 12F1</h1>
+      <nav class="nav">
+        <a href="#home">Trang chủ</a>
+        <a href="#products">Học sinh</a>
+        <a href="#contact">Liên hệ</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <section id="home" class="hero">
+      <h2>Chào mừng đến với Buồn phiền vì nhiều tiền</h2>
+      <p>Nhấn vào một ngôi sao để đánh giá. Đánh giá sẽ được lưu trên trình duyệt của bạn. Nếu thích quá thì bạn có thể add vào giỏ hàng để "rinh" ngay một em 12F1 về</p>
+    </section>
+
+    <section id="products" class="products-grid"></section>
+
+    <section class="legend">
+      <p><strong>Hướng dẫn:</strong> Nhấn vào một ngôi sao để đánh giá. Đánh giá sẽ được lưu trên trình duyệt của bạn.</p>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>© <span id="year">Review Học Sinh 12F1</span></p>
+      <p id="storage-note"></p>
+    </div>
+  </footer>
+
+  <template id="product-template">
+    <article class="product-card">
+      <div class="product-media">
+        <img class="product-image" src="" alt="" />
+      </div>
+      <div class="product-body">
+        <h3 class="product-title"></h3>
+        <p class="product-desc"></p>
+      </div>
+
+      <div class="product-meta">
+        <div class="rating" role="radiogroup" aria-label="Đánh giá sản phẩm"></div>
+        <div class="rating-info">
+          <span class="average">0.0</span>
+          <small class="votes">(0)</small>
+        </div>
+      </div>
+    </article>
+  </template>
+
+  <script src="script (1).js"></script>
+</body>
+</html>
