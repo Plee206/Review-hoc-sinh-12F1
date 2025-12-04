@@ -51,6 +51,7 @@ body {
   margin: 0;
   font-weight: bold;
   color: var(--highlight);
+  font-family: 'Poppins', sans-serif;
 }
 
 .nav a {
@@ -264,4 +265,5 @@ body {
     min-height: 320px;
   }
 }
+
 
